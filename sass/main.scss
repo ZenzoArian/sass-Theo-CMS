@@ -1,0 +1,477 @@
+
+@import 'vars';
+@import 'mixins';
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+}
+
+
+.menuDrop {
+  color: $hoofdkleur;
+  float:$R;
+  margin-top: 2em;
+  margin-left: 1em;
+}
+
+.menuImage {
+  float:$L;
+}
+
+.topMenu {
+  background-color:$W;
+  height: 4.5em;
+  width: 100%;
+}
+
+.menuImageSearch {
+  float:$R;
+  margin-top: 30px;
+  margin-left: .6em;
+}
+
+/* ================================================================================================================================= */
+.BannerTitle {
+  background-image: url(../images/slide-iddink1.jpg);
+  width: 100%;
+  max-width: 1800px;
+  color:$W;
+  height: 21em;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.bannerText {
+  margin-top: 3em;
+  margin-left: 5em;
+  width: 19em;
+}
+
+.imageBrain {
+  float:$R;
+  margin-right: 10em;
+  margin-top: -6em;
+}
+
+.bannerButton {
+  display: block;
+  background-color: $hoofdkleur;
+  border-color:$W;
+  border: solid;
+  border-width: 2px;
+  border-radius: 6px;
+  color:$W;
+  padding: 12px 33px;
+  text-align:$cent;
+  text-decoration:$N;
+  display: $LineB;
+  font-size: 16px;
+  cursor:$poi;
+  float:$L;
+  margin-left: 17.3em;
+  margin-top: 3em;
+}
+
+.bannertextButton {
+  margin-left: 3em;
+}
+
+/* ==================================================================================================================================== */
+.sideLine {
+  margin: 0 auto;
+  max-width: 1130px;
+}
+
+/* ==================================================================================================================================== */
+.watDoenWij {
+  text-align:$cent;
+}
+.watDoentekst{
+  color: $hoofdkleur;
+}
+
+.ontdekButton {
+  display: block;
+  background-color: $hoofdkleur;
+  border-radius: 4px;
+  color:$W;
+  padding: 12px 16px;
+  text-align:$cent;
+  text-decoration:$N;
+  display: $LineB;
+  font-size: 16px;
+  cursor:$poi;
+  text-transform: $upper;
+}
+
+.ontdekButton2{
+  display: block;
+  background-color:$W;
+  border-radius: 4px;
+  color: $lightBlue;
+  padding: 12px 16px;
+  text-align:$cent;
+  text-decoration:$N;
+  display: $LineB;
+  font-size: 16px;
+  cursor:$poi;
+  margin-top: .4em;
+  text-transform: $upper;
+
+}
+
+.imagepijl{
+  float:$R;
+  margin-top: -7em;
+  margin-right: 10em;
+}
+/* ==================================================================================================================================== */
+
+
+.nieuw{
+  color: $hoofdkleur;
+  text-decoration:$N;
+}
+
+.imageAndTekst{
+  margin-top: 3em;
+  float:$L;
+  margin-left: 1.03em;
+  margin-right: 1.03em;
+}
+.imageAndTekstFirst{
+  margin-top: 3em;
+  float:$L;
+  margin-right: 1.03em;
+  margin-left: 0;
+}
+.imageAndTekstLast{
+  margin-top: 3em;
+  float:$L;
+  margin-left: 1.03em;
+  margin-right: 0;
+}
+
+/* ==================================================================================================================================== */
+
+.blueBox{
+background-color: $lightBlue;
+width: 100%;
+height: 22em;
+margin-top: 33em;
+}
+
+.textBlueBox{
+  color:$W;
+  width: 61%;
+  padding-top: 3em;
+}
+
+.blueTekstImage{
+  float:$R;
+  margin-top: -6.4em;
+  margin-right: 9.8em;
+}
+
+.blueButton{
+  display: block;
+  background-color: $hoofdkleur;
+  border-color:$W;
+  border: solid;
+  border-width: 2px;
+  border-radius: 6px;
+  color:$W;
+  padding: 12px 16px;
+  text-align:$cent;
+  text-decoration:$N;
+  display: $LineB;
+  font-size: 16px;
+  cursor:$poi;
+  margin-top: 2em;
+  text-transform: $upper;
+
+}
+
+.blueImage{
+  float:$R;
+  margin-top: -18em;
+  height: 18em;
+}
+/* ==================================================================================================================================== */
+
+.neemContact{
+  text-align:$cent;
+  margin-top: 3em;
+}
+.MobileImage{
+  float:$R;
+  margin-top: -6em;
+  margin-right: 2em;
+}
+.mailOnsButton{
+  display: block;
+  background-color: $backgroundBlue;
+  border-radius: 10px;
+  color:$W;
+  padding: 12px 25px;
+  text-align:$cent;
+  text-decoration:$N;
+  display: $LineB;
+  font-size: 16px;
+  cursor:$poi;
+}
+/* ==================================================================================================================================== */
+.blueFooter{
+  margin-top: 3em;
+  width: 100%;
+  background-color: $backgroundBlue;
+  padding-top: 3em;
+  height: 10em;
+}
+.FooterLink{
+  color:$W;
+  text-decoration:$N;
+  float:$R;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.FooterLink:first-of-type{
+  margin-right: 0;
+}
+.FooterBottemTekst{
+  color:$W;
+  float:$L;
+}
+.FooterBottemTekst2{
+  color:$W;
+  float:$R;
+}
+/* ========================================================================================================================== */
+
+ul {
+  list-style-type:$N;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float:$R;
+  margin-top: .85em;
+}
+
+li a, .dropbtn {
+  display: $LineB;
+  color: $hoofdkleur;
+  text-align:$cent;
+  padding: 14px 9px;
+  text-decoration:$N;
+}
+
+
+li.dropdown {
+  display: $LineB;
+}
+
+.dropdown-content {
+  display:$N;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: $hoofdkleur;
+  padding: 12px 34px;
+  text-decoration:$N;
+  display: block;
+  text-align:$L;
+}
+
+.dropbtn2{
+  display:$N;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn2 {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  display:$N;
+}
+/* ====================================================================================== */
+
+@media only screen and (max-width: 1154.200px) and (min-width: 1020px) {
+
+  .imageAndTekstFirst{
+    margin-right: .5em;
+    margin-left: 10.5em;
+  }
+  .imageAndTekst{
+    margin-left: 10.5em;
+    margin-right: 7.5em;
+  }
+  .imageAndTekstLast{
+    margin-left: 3.5em;
+    margin-right: .5em;
+  }
+  .blueBox{
+  margin-top: 63em;
+  }
+
+}
+
+  /* ======================================================================================= */
+
+  @media only screen and (max-width: 1020px) {
+    .imageAndTekstFirst{
+      margin-right: .5em;
+      margin-left: 8.5em;
+    }
+    .imageAndTekst{
+      margin-left: 8.5em;
+      margin-right: 7.5em;
+    }
+    .imageAndTekstLast{
+      margin-left: 1.5em;
+      margin-right: .5em;
+    }
+
+    .imagepijl{
+      display:$N;
+    }
+    .MobileImage{
+      display:$N;
+    }
+    .blueBox{
+    height: 26em;
+    margin-top: 63em;
+    }
+
+    .textBlueBox{
+      width: 40%;
+    }
+    .blueTekstImage{
+      float:$R;
+      margin-top: -5.4em;
+      margin-right: 2.8em;
+    }
+  }
+
+  /* ======================================================================================= */
+
+  @media only screen and (max-width: 960px) {
+    .imageAndTekstFirst{
+      margin-right: 8.5em;
+      margin-left: 2.5em;
+    }
+    .imageAndTekst{
+      margin-left: 2.5em;
+      margin-right: .5em;
+    }
+    .imageAndTekstLast{
+      margin-left: 10.5em;
+      margin-right: .5em;
+    }
+    .blueBox{
+    height: 30em;
+    margin-top: 63em;
+    }
+    .BannerTitle {
+      background-size: 130%;
+    }
+  }
+
+  /* ======================================================================================= */
+
+  @media only screen and (max-width: 840px) {
+    .imageBrain {
+      display:$N;
+    }
+    .blueBox{
+    height: 41em;
+    margin-top: 63em;
+    }
+
+    .textBlueBox{
+      width: 100%;
+      text-align:$cent;
+    }
+
+    .blueTekstImage{
+      display:$N;
+    }
+
+
+    .blueImage{
+      float: inherit;
+      margin-top: 1em;
+      margin-left: 20%;
+    }
+  }
+  /* ================================================================================================ */
+  @media only screen and (max-width: 760px) {
+    .imageAndTekstFirst{
+      margin-right: .5em;
+      margin-left: 2.5em;
+    }
+    .imageAndTekst{
+      margin-left: 2.5em;
+      margin-right: .5em;
+    }
+    .imageAndTekstLast{
+      margin-left: 2.5em;
+      margin-right: .5em;
+    }
+    .BannerTitle {
+      background-size: 160%;
+    }
+  }
+
+  /* ================================================================================================ */
+  @media only screen and (max-width: 640px) {
+    .imageAndTekstFirst{
+      margin-left: 5.5em;
+    }
+    .imageAndTekst{
+      margin-left: 5.5em;
+    }
+    .imageAndTekstLast{
+      margin-left: 5.5em;
+    }
+    .BannerTitle {
+      background-size: 280%;
+    }
+
+    .topMenu {
+      height: 8.5em;
+    }
+    .bannerButton {
+      float:$L;
+      margin-left: 0;
+      margin-top: .1em;
+    }
+    .bannerText {
+      margin-top: 3em;
+      margin-left: 0;
+      width: 19em;
+    }
+    .blueBox{
+    height: 41em;
+    margin-top: 119em;
+    }
+    .blueImage{
+      margin-top: 1em;
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+    }
+  }

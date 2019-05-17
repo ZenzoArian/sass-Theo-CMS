@@ -1,0 +1,7 @@
+@mixin transform($waarde) {
+  -webkit-transform: $waarde;
+      -ms-transform: $waarde;
+          transform: $waarde;
+}
+
+.box { @include transform(rotate(30deg)); }
